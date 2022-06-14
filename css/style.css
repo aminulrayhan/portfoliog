@@ -1,0 +1,641 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+
+}
+
+
+.navbar-brand img{
+	width: 250px;
+	height: auto;
+	margin-left: 64px;
+	/*padding-top: 10px;*/
+
+}
+.navbar-nav{
+
+
+}
+.nav-link{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: white;
+}
+.hero-section{
+	width: 100%;
+	background-image:url(../img/girls1.png);
+	background-repeat: no-repeat;
+	/*background-position: top;*/
+	width: 100%;
+	height: 90vh;
+	background-size: cover;
+	padding-top: 300px;
+    padding-bottom: 448px;
+
+
+}
+.hero-section{
+	position: relative;
+}
+.hero-text{
+	margin-top: 180px;
+    margin-left: 77px;
+
+}
+.hero-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+.hero-text h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+
+	
+}
+.hero-text h4{
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    margin-top: 14px;
+
+}
+
+/*hero section end from here*/
+
+
+/*about section start from here*/
+
+.table>:not(caption)>*>*{
+	border-bottom-width: 0px;
+}
+
+.about-me{
+	width: 100%;
+	background-color: #8f8e8e;
+	padding-top: 115px;
+	padding-bottom: 100px;
+}
+
+.about-section img{
+	width: 82px;
+    margin-left: 250px;
+    margin-top: -34px;
+    margin-bottom: 20px;
+}
+.about-section{
+	background-color: white;
+    padding-left: 50px;
+    box-shadow: -48px -50px 0px -7px rgb(0 0 0 / 93%);
+    padding-bottom: 64px;
+    margin-left: 46px;
+
+
+}
+
+.about-section h2{
+	text-transform: uppercase;
+	font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: underline yellow;
+
+
+
+}
+
+.all-table-left{
+	margin-left: -9px;
+}
+.line{
+	position: relative;
+}
+.line::before{
+	content: '';
+    background: yellow;
+    width: 140px;
+    height: 2px;
+    position: absolute;
+    bottom: -40%;
+    left: 10px;
+    transform: translateX(-0%);
+
+}
+
+.about-right-text{
+	padding-left: 35px;
+    padding-right: 35px;
+
+}
+.about-right-text h5{
+
+	font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 45px;
+	
+}
+.about-right-text h2{
+	text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+     position: relative;
+     z-index: 9999;
+	
+}
+.about-right-text h2::before{
+      content: '';
+    background: yellow;
+    width: 136px;
+    height: 10px;
+    position: absolute;
+    bottom: 18%;
+    left: 28px;
+    transform: translateX(-18%);
+    z-index: -1;
+}
+
+
+
+.about-right-text p{
+	
+	font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.second-para{
+	font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+
+}
+
+
+/*about section end from here*/
+
+
+/*my education section  start from here*/
+
+.education-section{
+	width: 100%;
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+.education-text h2{
+	text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 30px;
+
+}
+.education-text h4{
+	text-transform: uppercase;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 322px;
+
+}
+.education-text img{
+	width: 120px;
+
+}
+.education-text h3{
+	text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+
+}
+.education-with-n img{
+	width: 94px;
+    margin-left: 18px;
+    margin-top: -70px;
+
+}
+.education-with-n {
+	position: relative;
+	z-index: 9999;
+}
+.education-with-n h2::before{
+	    content: '';
+    background: yellow;
+    width: 566px;
+    height: 17px;
+    position: absolute;
+    bottom: 18%;
+    left: 356px;
+    transform: translateX(-16%);
+    z-index: -1;
+}
+
+*//*my education section  end from here*/
+
+
+/*my technical skills start from here*/
+.technical-skills{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: black;
+}
+
+
+.technical{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: black;
+}
+
+
+.technical-skills-with-n h2{
+	text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 30px;
+   /* color: white;*/
+
+
+}
+.technical-skills-with-n img{
+	width: 94px;
+    margin-left: 18px;
+    margin-top: -70px;
+
+}
+.technical-skills-with-n{
+	position: relative;
+	z-index: 9999;
+}
+.technical-skills-with-n h2::before{
+      content: '';
+    background: yellow;
+    width: 756px;
+    height: 17px;
+    position: absolute;
+    bottom: 25%;
+    left: 357px;
+    transform: translateX(-25%);
+    z-index: -1;
+}
+
+
+/*toots-name*/
+.tools-name ul li img{
+	width: 80px;
+
+}
+.pain li img{
+	width: 50px !important;
+}
+.pain2 li img{
+	width: 120px !important;
+}
+.pain3 li img{
+	width: 65px !important;
+}
+
+.tools-name ul li {
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+.tools-name ul{
+	padding: 0;
+	margin: 0;
+}
+.tools-text h2{
+	
+	color: white;
+	text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    border-bottom: 1px solid yellow;
+   
+}
+/*my technical skills end from here*/
+
+
+
+/*MY EXPERIENCE START from here*/
+.my-experience{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.experience-with-n {
+	position: relative;
+	z-index: 9999;
+}
+.experience-with-n h2::before{
+	    content: '';
+    background: yellow;
+    width: 575px;
+    height: 17px;
+    position: absolute;
+    bottom: 18%;
+    left: 348px;
+    transform: translateX(-16%);
+    z-index: -1;
+}
+.experience-with-n img{
+	width: 94px;
+    margin-left: 18px;
+    margin-top: -70px;
+
+}
+.experience-with-n h2{
+	text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 30px;
+
+}
+.experience-text h4{
+	text-transform: uppercase;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 260px;
+
+}
+
+/*exerience-faculty*/
+
+.exerience-faculty{
+	margin-top: 20px;
+	
+}
+
+
+.exerience-faculty h3{
+	background-color: yellow;
+    display: inline;
+    padding: 5px 12px;
+
+}
+.exericenc-faculty-text{
+	margin-left: 90px;
+	margin-right: 90px;
+	padding: 10px;
+	background-color: #787575;
+	padding-right: 100px;
+	
+}
+.exericenc-faculty-text h2{
+	text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+.two-thousand-seven{
+	padding: 5px 30px !important;
+}
+.exericenc-faculty-text p{
+
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+	
+}
+
+.two-thousand{
+    text-align: end;
+    margin-top: -70px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+
+
+}
+.two-thousand h3{
+	 font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.two-thousands{
+    text-align: end;
+    margin-top: -80px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+
+
+}
+.two-thousands h3{
+	 font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.two-thousandss{
+    text-align: end;
+    margin-top: -98px;
+    margin-right: 30px;
+    padding-bottom: 60px;
+
+}
+.two-thousandss h3{
+	 font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*MY EXPERIENCE end from here*/
+
+
+/*my work section start from here */
+.my-work{
+	width: 100%;
+}
+.work-with-n {
+	position: relative;
+	z-index: 9999;
+}
+.work-with-n h2::before {
+    content: '';
+    background: yellow;
+    width: 395px;
+    height: 17px;
+    position: absolute;
+    bottom: 18%;
+    left: 422px;
+    transform: translateX(-18%);
+    z-index: -1;
+}
+.work-with-n img{
+	width: 94px;
+    margin-left: 18px;
+    margin-top: -70px;
+
+}
+.work-with-n h2{
+	text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 30px;
+
+}
+.work-text h4{
+	text-transform: uppercase;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 138px;
+    margin-bottom: 50px;
+
+}
+
+
+/*my work section end from here */
+
+
+
+/*01 union seafood company start from here*/
+.union{
+	width: 100%;
+	margin-top: 100px;
+	background-color: #bcb9b8;
+	padding-top: 20px;
+	padding-bottom: 200px;
+}
+.union-img img{
+	width: 96%;
+}
+.union-number{
+	text-align: end;
+    margin-right: 30px;
+    margin-top: -45px;
+
+}
+.union-number h3{
+
+	background-color: yellow;
+    display: inline;
+    padding: 15px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.union-text h2{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 45px;
+
+}
+.union-all-text{
+	padding-left: 20px;
+    padding-right: 30px;
+}
+/*union last part img*/
+.union-last-part{
+	margin-bottom: 20px;
+}
+.union-last-images{
+	margin-top: -180px;
+}
+
+
+
+/*01 union seafood company end from here*/
+
+
+
+/*footer section star from here*/
+.footer-section{
+	width: 100%;
+	background-color: black;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+
+.footer-content img{
+	width: 40px;
+}
+.footer-content h4{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding-top: 5px;
+}
+.footer-content h5{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    
+}
+.footer-img img{
+	    width: 200px;
+}
+/*footer section star from here*/
+
+
+
+/*/*this for one text two color design css*/
+
+
+/*.css-flame-text {
+    background-image: linear-gradient(0deg, #f00 25%, #ffb300 60%);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+}*/
+/* this is  for html text for one text for two color */
+
+	/*<div class="css-flame-text">CSS Flame Text</div>*/
+
+/*this for one text two color design css*/
+
+
+.css-flame-text {
+    background-image: linear-gradient(0deg, #000 38%, #ffffff 31%);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+}

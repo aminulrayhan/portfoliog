@@ -1,0 +1,490 @@
+/*/*mobile devices **/
+@media (max-width: 767px){
+	.hero-section{
+		/*background-size: contain;
+		    height: 100vh;
+		    padding-top: 60px;
+		    padding-bottom: 0px;*/
+
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 85px;
+    background-position: center;
+    background-size: cover;
+
+
+
+
+	}
+	.navbar-nav{
+		padding-left: 200px;
+		padding-top: 6px;
+		text-align: center;
+	}
+	.navbar-brand img{
+	width: 92px;
+    height: auto;
+    margin-left: 21px;
+	}
+	.nav-link{
+	font-size: 10px;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    background: yellow;
+
+	}
+	.hero-text{
+	margin-top: 130px;
+    margin-left: 35px;
+	}
+	.hero-text h3{
+	font-size: 16px;
+	}
+	.hero-text h2{
+	font-size: 16px;
+	}
+	.hero-text h4{
+	font-size: 16px;
+	}
+
+	/*about section*/
+
+	.line::before{
+		width: 102px;
+	}
+	.all-table-left{
+		font-size: 13px;
+	}
+	.about-section h2{
+		font-size: 25px;
+	}
+	.about-section img {
+    width: 67px;
+    margin-left: 75px;
+    margin-top: -30px;
+    margin-bottom: 25px;
+}
+    .about-section {
+    background-color: white;
+    padding-left: 50px;
+    box-shadow: -48px -50px 0px -7px rgb(0 0 0 / 93%);
+    padding-bottom: 64px;
+    margin-left: 40px;
+}
+.about-right-text{
+    margin-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.about-right-text h5 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    /* margin-left: 45px; */
+    text-align: center;
+}
+.about-right-text h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.about-right-text p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+/*hello with about*/
+
+.about-right-text h2::before{
+	    
+        left: 138px;
+}
+.about-me{
+
+}
+
+
+/*about section end from here*/
+
+/*my education section  start from here*/
+
+
+.education-text h4{
+	text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 122px;
+}
+.education-text h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 0px;
+}
+.education-with-n h2::before {
+    content: '';
+    background: yellow;
+    width: 240px;
+    height: 8px;
+    position: absolute;
+    bottom: 16%;
+    left: 94px;
+    transform: translateX(-16%);
+    z-index: -1;
+}
+.education-with-n img {
+    width: 45px;
+    margin-left: 6px;
+    margin-top: -37px;
+}
+.education-text h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 122px;
+}
+.education-text img {
+    width: 45px;
+}
+.education-text h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.education-section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/*my education section  end from here*/
+
+
+/*my technical skills start from here*/
+
+.technical-skills-with-n h2::before {
+    content: '';
+    background: yellow;
+    width: 278px;
+    height: 6px;
+    position: absolute;
+    bottom: 36%;
+    left: 133px;
+    transform: translateX(-36%);
+    z-index: -1;
+}
+.technical-skills-with-n h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 7px;
+    /* color: white; */
+}
+.technical-skills-with-n img {
+    width: 38px;
+    margin-left: 5px;
+    margin-top: -28px;
+}
+.tools-text h2{
+	font-size: 16px;
+}
+.for-mobile{
+	display: inline-flex;
+}
+.reading-tools{
+	padding-right: 5px;
+}
+
+/*my technical skills end from here*/
+
+
+/*my experience start from here */
+.experience-with-n h2{
+	font-size: 25px;
+	padding-right: 0px;
+}
+.experience-with-n h2::before{
+	width: 245px;
+    height: 6px;
+    bottom: 18%;
+    left: 98px;
+    transform: translateX(-18%);
+}
+.experience-with-n img {
+    width: 45px;
+    margin-left: 6px;
+    margin-top: -37px;
+}
+.experience-text h4{
+	font-size: 12px;
+	padding-right: 84px;
+
+}
+.my-experience{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.two-thousand {
+    text-align: end;
+    margin-top: -35px;
+    margin-right: 0;
+    padding-bottom: 5px;
+}
+.two-thousands{
+	margin-top: -35px;
+    padding-bottom: 5px;
+    margin-right: 0px;
+}
+.exericenc-faculty-text{
+	margin-left: 0px;
+     margin-right: 0px;
+   padding-right: 0px;
+}
+.exericenc-faculty-text h2{
+	    font-size: 14px;
+}
+.exericenc-faculty-text p {
+	 font-size: 12px;
+}
+.exericenc-faculty-text p{
+	padding-bottom: 20px;
+}
+.two-thousandss{
+	text-align: end;
+    margin-top: -35px;
+    margin-right: 0px;
+    padding-bottom: 5px;
+}
+
+/*my experience end from here */
+
+/*my work start from here */
+.work-with-n h2{
+	font-size: 25px;
+	padding-right: 0px;
+}
+.work-with-n img {
+    width: 45px;
+    margin-left: 6px;
+    margin-top: -37px;
+}
+
+.work-text h4{
+	font-size: 12px;
+    padding-right: 36px;
+}
+
+.work-with-n h2::before{
+	width: 170px;
+    height: 6px;
+    left: 122px;
+}
+
+
+/*my work with image*/
+
+
+.work-img img{
+	padding-bottom: 20px;
+}
+.work-images img{
+	padding-bottom: 20px;
+}
+
+/*my work start from here */
+
+
+/* 01 union seafood company start from here*/
+
+.union{
+	margin-top: 50px;
+}
+.union-number{
+	margin-top: -28px;
+}
+.union-text h2{
+	    font-size: 18px;
+}
+/* 01 union seafood company end from here*/
+
+.navbar-toggler:focus {
+	text-decoration: none !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+
+}
+
+}
+
+
+/*Tablet responsive */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.navbar-nav{
+	    background: #ffffff;
+	    padding: 20px;
+	}
+	.nav-link{
+		color: black;
+		font-size: 25px;
+	}
+	.navbar-brand img{
+		margin-left: 0px;
+		padding-top: 10px;
+	}
+
+	.hero-section{
+		background-position: top;
+
+	}
+	.hero-text{
+		margin-top: 278px;
+        margin-left: 16px;
+	}
+
+
+.navbar-toggler:focus {
+	text-decoration: none !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+
+}
+.about-section img{
+	 margin-left: 40px;
+}
+.line::before {
+	width: 90px;
+}
+.education-text h2 {
+	font-size: 50px;
+}
+.education-text h4 {
+	font-size: 20px;
+}
+.education-with-n img {
+	    width: 85px;
+    margin-top: -60px;
+}
+.education-with-n h2::before {
+    content: '';
+    width: 485px;
+    height: 14px;
+    left: 169px;
+    transform: translateX(-16%);
+    z-index: -1;
+}
+.education-text h3{
+	font-size: 22px;
+}
+
+/*technical skill start from here */
+
+.technical-skills-with-n h2 {
+	font-size: 42px;
+	padding-right: 0px;
+}
+.technical-skills-with-n h2::before {
+	width: 564px;
+    left: 225px;
+    height: 11px;
+	bottom: 28%;
+	transform: translateX(-28%);
+}
+.tools-text h2 {
+	    font-size: 16px;
+
+}
+/*technical skill start from here */
+
+
+/*my exeriencce start from here*/
+.experience-with-n h2 {
+
+	font-size: 50px;
+}
+
+.experience-with-n img {
+	width: 85px;
+	margin-top: -64px;
+
+}
+
+.experience-with-n h2::before{
+	    width: 495px;
+    height: 12px;
+    left: 166px;
+}
+.experience-text h4 {
+font-size: 20px;
+padding-right: 250px;
+}
+
+.exericenc-faculty-text{
+	margin-left: 0px; 
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+}
+.two-thousand {
+	margin-top: -35px;
+	padding-bottom: 5px;
+	margin-right: 0px;
+
+}
+.two-thousands {
+	margin-top: -35px;
+	padding-bottom: 5px;
+	margin-right: 0px;
+}
+
+.two-thousandss{
+	margin-top: -35px;
+	margin-right: 0px; 
+    padding-bottom: 5px;
+}
+/*my exeriencce end from here*/
+
+/*my work section start from here*/
+
+.work-with-n h2{
+	font-size: 50px;
+	padding-right: 0px;
+}
+.work-with-n h2::before{
+	    width: 340px;
+	    height: 15px;
+	    left: 239px;
+}
+.work-with-n img{
+	width: 85px;
+	margin-top: -65px;
+
+}
+
+.work-text h4{
+    font-size: 20px;
+    padding-right: 115px;
+}
+
+
+/*my work section end from here*/
+
+}
+
+/*@media (max-width: 576px){
+.about-right-text h2::before{
+
+    left: 139px;
+}
+}
+*/
